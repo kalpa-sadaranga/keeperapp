@@ -1,4 +1,4 @@
-import "./Note.css"
+import "../style.css"; 
 
 function Note(){
 
