@@ -1,14 +1,10 @@
 import "../style.css"; 
 
-function Note(){
+import React from "react";
+import NoteList from "./NoteList";
 
-    return(
-        <div className="note">
-            <h1>title</h1>
-            <p>content</p>
-        </div>
-
-    );
+function Note() {
+  return <NoteList />;
 }
 
 export default Note;
